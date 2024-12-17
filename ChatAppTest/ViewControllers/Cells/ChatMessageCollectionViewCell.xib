@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gSy-pa-hI0" customClass="ChatMessageCollectionViewCell" customModule="test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="145"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8fk-9R-Z8L">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="145"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqU-DD-HtT">
+                        <rect key="frame" x="10" y="10" width="277" height="135"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTM-Ta-En5">
+                                <rect key="frame" x="10" y="5" width="262" height="125"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FTM-Ta-En5" firstAttribute="leading" secondItem="pqU-DD-HtT" secondAttribute="leading" constant="10" id="4nr-wm-uQp"/>
+                            <constraint firstAttribute="trailing" secondItem="FTM-Ta-En5" secondAttribute="trailing" constant="5" id="RlU-BJ-jXp"/>
+                            <constraint firstItem="FTM-Ta-En5" firstAttribute="top" secondItem="pqU-DD-HtT" secondAttribute="top" constant="5" id="Xtf-JW-eHb"/>
+                            <constraint firstAttribute="bottom" secondItem="FTM-Ta-En5" secondAttribute="bottom" constant="5" id="o7x-9S-FV2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="pqU-DD-HtT" secondAttribute="trailing" constant="80" id="Mnq-Ev-f1f"/>
+                    <constraint firstAttribute="bottom" secondItem="pqU-DD-HtT" secondAttribute="bottom" id="Wse-PN-LO7"/>
+                    <constraint firstItem="pqU-DD-HtT" firstAttribute="leading" secondItem="8fk-9R-Z8L" secondAttribute="leading" constant="10" id="bKg-A0-JPS"/>
+                    <constraint firstItem="pqU-DD-HtT" firstAttribute="top" secondItem="8fk-9R-Z8L" secondAttribute="top" constant="10" id="lzf-dA-koT"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="367" height="145"/>
+            <connections>
+                <outlet property="bubbleLeadingConstraint" destination="bKg-A0-JPS" id="lQM-h4-rek"/>
+                <outlet property="bubbleTopConstraint" destination="lzf-dA-koT" id="g7G-a2-dmA"/>
+                <outlet property="bubbleTrailingConstraint" destination="Mnq-Ev-f1f" id="WWv-GC-y47"/>
+                <outlet property="bubbleView" destination="pqU-DD-HtT" id="aHM-PK-cs5"/>
+                <outlet property="messageLabel" destination="FTM-Ta-En5" id="hbh-fU-9ms"/>
+            </connections>
+            <point key="canvasLocation" x="270.99236641221376" y="-34.859154929577464"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
