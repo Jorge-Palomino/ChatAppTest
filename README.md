@@ -116,3 +116,5 @@ keyboard plus the input is too big.*
 
 *I would love to add any other functionalities that I am asked to or any of my other skills, but I
 didn’t want to exceed the expected given time (1-2 evenings).*
+
+⌨️ with ♡ by [J. Palomino](https://github.com/Jorge-Palomino) 😈
