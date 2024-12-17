@@ -47,8 +47,10 @@ The animation does not need to be perfect but the logic in place showing an anim
 - Unit tests
 
 **Screenshot 1**
+
 ![Screenshot 1](images/Screenshot-1.png?raw=true "Screenshot 1")
 **Screenshot 2**
+
 ![Screenshot 2](images/Screenshot-2.png?raw=true "Screenshot 2")
 
 ## Deliverables
