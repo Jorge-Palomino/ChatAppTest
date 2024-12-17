@@ -46,7 +46,9 @@ The animation does not need to be perfect but the logic in place showing an anim
 - DiffableDataSource
 - Unit tests
 
+**Screenshot 1**
 ![Screenshot 1](images/Screenshot-1.png?raw=true "Screenshot 1")
+**Screenshot 2**
 ![Screenshot 2](images/Screenshot-2.png?raw=true "Screenshot 2")
 
 ## Deliverables
@@ -76,3 +78,38 @@ e pride ourselves on respect and speed of decision making to you as a candidate.
 - Progress to final interviews if we deem the exercise to be satisfactory
 - Decision 24 hours after final interviews
 
+# Jorge's Palomino Feedback
+
+*I decided to also implement a ChatFeed so it gives you a little bit more navigability
+throughout the app and so the user can see different types of conversations with different
+users. The user will be randomly a male or female and therefore will see conversations with
+females or males and vice versa.*
+
+*I created some random chats that can have between 1 and 3 messages. Starting with a
+salute message between the two users and followed by a long message to continue the
+conversation asking something about your day.*
+
+*The conversations are saved on the current session but as they are just randomly generated
+every new session and you cannot receive messages I haven’t done any persistence
+implementation.*
+
+*I have used MVVM-C to implement both screens, the Feed and the Detail Chat.*
+
+*I have structured the messages in sections. All chats begin with a first “It’s a match” section
+and followed up by an organised group or 1 or more messages if they have been sent in less
+than an hour between them. The 20 seconds implementation does not need other sections
+as they are already sent in less than an hour; the only added thing is some padding and
+sizing differentiation if it matches the criteria between cells.*
+
+*Finally I have created an animation to move the message from the input area to the
+collection where all the sent messages are located. This animation having more time could
+be perfectionaise for all different message sizes, for only emoji messages too; but it shows
+the idea behind it.*
+
+*Giving more time the input area for the messages could also be perfectionaise for long
+messages, as it would be great to lock the height of it and let the user scroll the textview if it
+has more than 4-5 lines. Sometimes the input could go off the screen on small devices if the
+keyboard plus the input is too big.*
+
+*I would love to add any other functionalities that I am asked to or any of my other skills, but I
+didn’t want to exceed the expected given time (1-2 evenings).*
