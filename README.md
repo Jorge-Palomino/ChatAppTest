@@ -48,11 +48,11 @@ The animation does not need to be perfect but the logic in place showing an anim
 
 **Screenshot 1**
 
-![Screenshot 1](images/Screenshot-1.png?raw=true "Screenshot 1")
+![Screenshot 1](media/Screenshot-1.png?raw=true "Screenshot 1")
 
 **Screenshot 2**
 
-![Screenshot 2](images/Screenshot-2.png?raw=true "Screenshot 2")
+![Screenshot 2](media/Screenshot-2.png?raw=true "Screenshot 2")
 
 ## Deliverables
 Please deliver a ZIP with the following:
@@ -116,5 +116,8 @@ keyboard plus the input is too big.*
 
 *I would love to add any other functionalities that I am asked to or any of my other skills, but I
 didn’t want to exceed the expected given time (1-2 evenings).*
+
+
+![ScreenRecording-1](media/ScreenRecording-1.gif)
 
 ⌨️ with ♡ by [J. Palomino](https://github.com/Jorge-Palomino) 😈
